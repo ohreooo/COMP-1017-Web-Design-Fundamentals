@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.contact-us h1 {
+    line-height: 0.8;
+    font-size: 72px;
+    color: #7a777c;
+    width: 450px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: auto;
+    margin-top: 115px;
+    padding-bottom: 42px;
+}
+
+/* Form elements */
+input,
+button {
+    background-color: #efefef;
+    border: 1px solid #c4c4c4;
+    line-height: 30px;
+    width: 312px;
+    padding-left: 48px;
+}
+.your-name input, .email-address input{
+    width: 125px;
+}
+.email-address{
+    padding-left: 12px;
+}
+
+label {
+    font-family: Verdana;
+    display: block;
+    font-size: 12px;
+    color: #cacaca;
+}
+
+
+form {
+    padding-left: 324px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    align-items: center;
+}
