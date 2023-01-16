@@ -1,0 +1,62 @@
+body{
+    background-color: #f0efed;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+    line-height: 1.5;
+    font-family: 'Vesper Libre', serif;
+    font-family: 'Miriam Libre', sans-serif;
+	text-align: center;
+	background-color: #f0efed;
+}
+
+main{
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: italic;
+}
+h1,
+h2,
+h3{
+    font-family: 'Vesper Libre', serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h1{
+    padding-top: 96px;
+    font-size: 86px;
+}
+
+h2{
+    padding-top: 96px;
+}
+h3{
+    color: #84696f;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+h4{
+    padding-bottom: 24px;
+}
+
+p{
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+header p{
+    font-size: 18px;
+    margin: 48px 0px;
+}
+img{
+    margin: 24px 0px;
+}
+
+
+footer h2{
+    font-size: 18px;
+}
