@@ -1,0 +1,25 @@
+section.margin-section{
+    background-color: pink;
+    margin:24px 12px 24px 12px; /* top right bottom left, clockwise */
+}
+
+section.border-section{
+    background-color: rgb(95, 223, 95);
+    border: 3px solid black; /* to target one side of the border, use border-left, border-right, border-top or border-bottom */
+    /*adds into the calculated width of a border*/
+    border-bottom: none;
+}
+
+section.padding-section{
+    background-color: rgb(122, 69, 69);
+    padding: 24px;
+}
+/* padding is inside the border, unlike margin where the border moves with it */
+/* padding changes the calculated width */
+
+section.width-section{
+    width: 300px;
+    margin: 25px;
+    /* if this code is included and when f12, the calculated width would be 350 instead of 300 "padding: 25px; "*/
+    border: 5px solid blue;
+}

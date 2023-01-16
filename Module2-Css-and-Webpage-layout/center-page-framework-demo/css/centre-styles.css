@@ -1,0 +1,17 @@
+body{
+    background-color: #ccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    /* Here is the magic for the centre page layout!!! */
+    margin: 0 auto;
+    width:960px;
+    background-color: white;
+    padding: 30px;
+
+    /* just for fun*/
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    font-size: 100%;
+    line-height: 1.5;
+}

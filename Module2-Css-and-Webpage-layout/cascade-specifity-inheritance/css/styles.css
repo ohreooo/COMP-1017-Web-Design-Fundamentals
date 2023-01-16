@@ -1,0 +1,44 @@
+footer{
+    background-color: #333333;
+}
+
+/* We can specify multiple selectors separated by commas for a single declaration. In this case, footer a refers to any "a"'s (anchors) in your <footer>*/
+
+footer, footer a{
+    color: white;
+}
+
+/* Use descendant selectors to be more precise. The following applies to any ul elements that are descendants of nav elements */
+
+nav ul{
+    background-color: #dedede;
+}
+
+/* We can specify any number of descendants; the following rule applies to any li elements that are descendants of ul elements, which are themselves descendants of nav elements */
+
+nav ul li{
+    border-bottom: 1px solid #333333;
+}
+
+/* How can I target the a's (links) of the above? */
+
+nav ul li a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/* Pseudo classes allow us to target elements in specific states, positions, etc. Here, we are targeting a elements in the hover state. (when the mouse is over them)*/
+
+nav ul li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Class selectors can be used to be more specific  when targetting elements and have a higher prioritythan simple element selectors alone */
+
+/* this could also be just .navigation{}, but be more specific if you have a specific target class in mind */
+
+ul.navigation{
+    list-style: none;
+    padding-left: 0;
+}

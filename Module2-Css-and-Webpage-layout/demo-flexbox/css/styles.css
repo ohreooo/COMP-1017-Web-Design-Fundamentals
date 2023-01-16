@@ -1,0 +1,70 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*This is the parent of our flexed boxes */
+main{
+    background-color: lightgrey;
+    display: flex;
+}
+
+/* descendant selector: this refers to any div that is a child of main ">" ; same as main div {}*/
+main > div{
+    height: 200px;
+    width: 465px;
+    margin: 10px 0px 10px 10px;
+}
+.red-paint{
+    background-color: red;
+}
+
+.blue-paint{
+    background-color: blue;
+}
+
+.black-paint{
+    background-color: black;
+    width: 940px;
+    height: 50px;
+    margin: 0px 10px 10px 10px;
+}
+
+footer{
+    background-color: lightgrey;
+    height: 60px;
+    display: flex;
+}
