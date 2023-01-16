@@ -1,0 +1,51 @@
+body {
+ background-color:white;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.visuallyhidden {
+	display: none;
+}
+
+header{
+	background-image: url(../img/page-background.gif);
+    height: 156px;
+}
+
+.logo{
+    padding: 16px 0px 16px 0px;
+}
+
+nav a{
+    font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #f1f7f6;
+}
+
+
+nav li{
+	font-size: 18px;
+    text-align: center;
+}
+
+nav ul{
+	display: flex;
+}
+nav ul li{
+    margin: 0px 12px 16px 12px;
+}
+header nav{
+	margin-left: 283.93px;
+}
+
+header a:hover{
+    border-bottom: 1px solid white;
+}
+
