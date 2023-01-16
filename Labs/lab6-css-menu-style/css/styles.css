@@ -1,0 +1,118 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+}
+
+/*  COLOUR PALETTE 
+
+Create a colour palette by using the 
+Eyedropper [I] and the Type Tool [T]
+in Photoshop and copying the hex codes
+from the Colour Picker or Colour Panel.
+
+
+Dark Grey   #3f3f40;
+Light Grey  #727273;
+Yellow      #f2dea0;
+Off-White   #f2f2f2;
+Footer Text #a4a5a6;
+
+font-family: 'Heebo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/
+.visuallyhidden {
+	display: none;
+}
+
+
+header{
+	background-color: #3f3f40;
+}
+
+header .logo{
+	margin: 15px;
+}
+
+
+nav a{
+	text-decoration: none;
+	font-variant: small-caps; 
+	color: #f2dea0;
+}
+
+nav li{
+	font-size: 20px;
+	line-height: 90px;
+	margin-right: 75px;
+}
+
+nav ul{
+	display: flex;
+}
+
+header {
+	display: flex;
+}
+
+header nav{
+	margin-left: 75px;
+}
+
+header a:hover{
+	border-bottom: 1px solid #f2dea0;
+}
+
+.banner{
+	padding: 75px 25px 0px 625px;
+	background-image: url(../img/teabags.jpg);
+	height: 750px;
+}
+.banner h2{
+	font-size: 32.5px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.banner p{
+	padding: 15px 0px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.banner ul a{
+	text-decoration: none;
+	font-variant: small-caps; 
+	color: #f2dea0;
+}
+
+.banner li{
+	margin-top: 12px;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.banner a:hover{
+	border-bottom: 1px solid #f2dea0;
+}
+
+footer{
+	background-color: #3f3f40;
+	padding: 20px 0px;
+}
+
+footer h3,
+p{
+	color: #727273;
+	padding: 10px 0px
+}
+
+footer p{
+	font-size: 12px;
+}
